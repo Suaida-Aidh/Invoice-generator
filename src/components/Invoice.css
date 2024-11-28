@@ -1,0 +1,80 @@
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Changed to flex-start to allow scrolling for tall content */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif, Nunito;
+}
+
+.invoice {
+  width: 746.66px;
+  margin: 45px;
+  padding: 40px 33px 0px 35px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #bfc8de;
+  /* Removed fixed height */
+}
+
+.inv-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-logo-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.logo-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.logo-span {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.logo-svg {
+  width: 24px;
+  height: 24px;
+  fill: #000; /* Adjust the color of the SVG */
+}
+
+.upload-text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.upload-section-note {
+  display: block;
+  margin: 15px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 24%;
+}
+
+.form-container {
+  width: 45%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: hidden;
+}
+
+.c-name.form-control {
+  height: inherit;
+}
